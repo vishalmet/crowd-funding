@@ -15,7 +15,7 @@ contract MyContract {
         uint[] donations;
     }
 
-    mapping (uint => Campaign) public campaign;
+    mapping (uint => Campaign) public campaigns;
 
     uint public numberOfCampaigns = 0;
 
