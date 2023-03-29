@@ -42,7 +42,7 @@ require(
     campaign.deadline = _deadline;
     campaign.image = _image;
 
-    numberOfCampaigns;
+    numberOfCampaigns++;
 
     return(numberOfCampaigns-1);
 
